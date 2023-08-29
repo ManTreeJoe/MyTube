@@ -1,0 +1,182 @@
+:root {
+  --white: rgb(205, 205, 205);
+  --black: #0d0d0d;
+  --fade-grey: #67676770;
+  --grey: #afafaf70;
+}
+
+html {
+  background-color:var(--black);
+  color: var(--white);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  color: var(--white)
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  background-size: 10px;
+}
+
+.nav {
+  position: relative;
+  overflow: hidden;
+  margin: 0 30px;
+}
+
+.nav-left {
+  float: left;
+  font-size: 20px;
+}
+
+.nav-left a {
+  padding: 8px 10px;
+  margin-right: 20px;
+}
+
+a:hover {
+  background-color: var(--grey);
+  border: none;
+  border-width: 10px;
+  border-radius: 10px;
+}
+
+.nav-right a{
+  float: right;
+  padding: 8px 10px;
+  margin-top: 10px;
+}
+
+.nav-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#search {
+  position: relative;
+  width: 750px;
+  height: 50px;
+  border: solid;
+  border-radius: 40px;
+  background-color: var(--fade-grey);
+  font-size: 25px;
+}
+
+.highlighted{
+  color:white;
+  background-color: var(--fade-grey);
+  padding: 6px;
+  border-radius: 10px;
+ }
+
+
+h1 {
+  position: relative;
+  left: 100px;
+  font-size: 60px;
+  color: var(--white)
+}
+
+h2 {
+  position: relative;
+  left: 340px;
+  font-size: 40px;
+  color: var(--white)
+}
+
+h3 {
+  position: relative;
+  left: 107px;
+  font-size: 25px;
+  color: var(--white)
+}
+
+.video-min {
+  position: relative;
+  left: 120px;
+  border: solid var(--black) ;
+  border-radius: 40px;
+  height: 350px;
+  width: 550px;
+  margin: 40px;
+}
+
+.video-max {
+  position: relative;
+  left: 330px;
+  border: solid var(--black) ;
+  border-radius: 40px;
+  height: 800px;
+  width: 1500px;
+  margin-top: 40px;
+}
+
+
+.vid-title-1 {
+  position: relative;
+  left: 120px;
+  bottom: 45px;
+  margin: 70px;
+}
+
+.description {
+  position: relative;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  left: 270px;
+  bottom: 45px;
+  margin: 70px;
+}
+
+hr {
+  position: relative;
+  color: var(--fade-grey);
+  top: 500px;
+  width: 2080px;
+}
+
+.title {
+  position: relative;
+  left: 138px;
+  top: -40px;
+}
+
+.form {
+  position: relative;
+  background-color: var(--fade-grey);
+  font-size: 30px;
+  width: 650px;
+  border-radius: 6px;
+  margin:auto;
+  padding: 30px;
+  top: -50px;
+}
+
+#title,#upload,#collection,#file {
+  width:650px;
+  height: 30px;
+  border-radius: 6px;
+  margin: 7px 2px;
+  font-size: 20px;
+}
+
+select {
+  width:658px;
+  height: 30px;
+  border-radius: 6px;
+  margin: 7px 2px;
+}
+
+textarea {
+  border-radius: 6px;
+}
+
+option {
+  margin: 7px 2px;
+}

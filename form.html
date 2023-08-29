@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MyTube - Upload</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="nav">
+    <div class="nav-left">
+      <a href="/" class="fa fa-home " style="font-size:30px"></a>
+      <a href="/pages/collectionOne.html">Animals</a>
+      <a href="/pages/collectionTwo.html">Climbing</a>
+      <a href="/pages/colectionThree.html">Cameras</a>
+    </div>
+    <div class="nav-right">
+      <a href="/form.html" class="fa fa-upload highlighted" style="font-size:27px"></a>
+    </div>
+    <div class="nav-center">
+      <input type="search" id="search" placeholder="  Search">
+    </div>
+  </div>
+  <article>
+    <div class="header">
+      <h1>Upload Video</h1>
+    </div>
+    <div class="form">
+      <div class="title">
+        <h1>Upload</h1>
+      </div>
+      <br>
+      <label for="file">Choose Video File</label>
+      <br>
+      <input type="file" id="file">
+      <br><br>
+      <label for="title">Title</label>
+      <br>
+      <input type="text" name="title" id="title" placeholder="Enter Title Name">
+      <br>
+      <br>
+      <label for="descript">Description</label>
+      <br>
+      <textarea name="descript" id="descript" cols="83.5" rows="10"></textarea>
+      <br>
+      <br>
+      <label for="collection">Playlist</label>
+      <br>
+      <select name="collection" id="collection">
+        <option value="none">Playlist</option>
+        <option value="collectionOne">Animals</option>
+        <option value="collectionTwo">Climbing</option>
+        <option value="collectionThree">Cameras</option>
+      </select>
+      <br><br>
+      <input type="submit" name="upload" id="upload">
+    </div>
+  </article>
+  <footer>
+    &copy; Copyright
+  </footer>
+
+</body>
+
+</html>
